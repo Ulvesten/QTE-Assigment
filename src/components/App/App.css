@@ -1,0 +1,13 @@
+.Cards {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.LearnMore__Button {
+    height: 60px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: rgb(163, 133, 163);
+}
