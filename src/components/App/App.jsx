@@ -108,14 +108,22 @@ function App() {
                     </Typography>
 
                     <Stack direction='row' spacing={1} alignItems='center'>
-                        <Typography fontSize={15} sx={{ color: '#00000060' }}>
+                        <Typography
+                            fontSize={15}
+                            sx={{ color: '#00000060' }}
+                            pr='10px'
+                        >
                             Monthly
                         </Typography>
                         <AntSwitch
                             inputProps={{ 'aria-label': 'ant design' }}
                             onChange={handleChange}
                         />
-                        <Typography fontSize={15} sx={{ color: '#00000060' }}>
+                        <Typography
+                            fontSize={15}
+                            sx={{ color: '#00000060' }}
+                            pl='10px'
+                        >
                             Annually
                         </Typography>
                     </Stack>
