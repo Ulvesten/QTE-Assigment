@@ -1,21 +1,29 @@
 .Card {
-    border-radius: 30px;
-    background-color: rgb(255, 234, 238);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: #ffffff;
     transition: all 0.2s ease-in-out;
     text-align: center;
+    box-shadow: 0px 0px 5px hsl(234, 14%, 74%);
+    z-index: 0;
+    width: 100%;
 }
 .Card__Special {
-    border-radius: 30px;
-    background-color: rgb(255, 234, 238);
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        to bottom,
+        hsl(236, 72%, 79%),
+        hsl(237, 63%, 64%)
+    );
     transition: all 0.2s ease-in-out;
     text-align: center;
+    padding-block: 3vh;
+    box-shadow: 0px 2px 5px hsl(234, 14%, 74%);
+    z-index: 1;
+    width: 100%;
 }
-.Card__Special {
-    border-radius: 30px;
-    background-color: rgb(255, 234, 238);
-    transition: all 0.2s ease-in-out;
-    text-align: center;
-}
+
 .Title__Text {
     display: flex;
     flex-direction: column;
@@ -24,10 +32,24 @@
     padding-top: 5vh;
     padding-bottom: 2vh;
 }
-.LearnMore__Button {
-    height: 60px;
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-color: rgb(163, 133, 163);
+.Card .MuiButton-root {
+    border-radius: 10px;
+    border-color: hsl(237, 63%, 64%);
+    color: hsl(237, 63%, 64%);
+}
+.Card .MuiButton-root:hover {
+    color: hsl(234, 14%, 74%);
+    border-color: hsl(234, 14%, 74%);
+}
+.Card__Special .MuiButton-root {
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.Card__Special .MuiButton-root:hover {
+    color: hsl(234, 14%, 74%);
+    border-color: hsl(234, 14%, 74%);
+}
+.Card .MuiTypography-root {
+    color: hsl(232, 13%, 33%);
 }
