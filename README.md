@@ -9,7 +9,7 @@ Enkelt och elegant sätt att visa upp olika pris modeller.
 
 ## Live Demo
 
-Exempel 1: "https://qte-assigment.vercel.app/"
+Exempel: "https://qte-assigment.vercel.app/"
 
 ## Kortfattat INDEX;
 
@@ -20,7 +20,6 @@ src
 └───Card
       └───Card.jsx                          #Showcase of dynamically show the data of the different cards
 
-## Installera programmet och kör lokalt på er dator:
 
 ### Prerequisites:
 
@@ -29,7 +28,7 @@ src
 - NPM version 8.3.0+ CLI installerat
 - GIT CLI installed
 
-### Command line - Kör programmet:
+### Run routine:
 
 1. Öppna din Commandline
 2. Kör `git clone https://github.com/Ulvesten/QTE-Assigment.git` i Terminalen.
@@ -38,7 +37,8 @@ src
 5. Navigera till "http://localhost:3000/"
 
 
-### Kontakt:
+### Contact:
 
-Vid frågor eller funderingar, tveka inte att höra av er till: ulvesten@icloud.com
+Vid frågor eller funderingar, tveka inte att höra av er till;
+ulvesten@icloud.com
 ```
