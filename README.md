@@ -1,62 +1,44 @@
-# Hackathon Uppgift: Pricing component with toggle
+# Price Card Showcase
 
-![Design preview for the Pricing component with toggle coding challenge](./design/desktop-preview.jpg)
+## Intro:
 
-## Welcome! 👋
+Hej! Detta är en React frontend Project som vi gjorde som en Task medans vi var hos QTE.
+Enkelt och elegant sätt att visa upp olika pris modeller.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and React.**
+// Carl
 
-## The challenge
+## Live Demo
 
-Your challenge is to build out this pricing component and get it looking as close to the design as possible.
+Exempel 1: "https://qte-assigment.vercel.app/"
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Kortfattat INDEX;
 
-Your users should be able to:
+```
+src
+└───App
+|     └───App.jsx                           #General app layout
+└───Card
+      └───Card.jsx                          #Showcase of how i dynamically changed the data of the different cards
 
-- View the optimal layout for the component depending on their device's screen size
-- Control the toggle with both their mouse/trackpad and their keyboard
+## Installera programmet och kör lokalt på er dator:
 
-## Where to find everything
+### Prerequisites:
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+- CommandLine/Terminal installerat på din dator
+- NodeJS version v16.14.0
+- NPM version 8.3.0+ CLI installerat
+- GIT CLI installed
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+### Command line - Kör programmet:
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+1. Öppna din Commandline
+2. Kör `git clone https://github.com/Ulvesten/QTE-Assigment.git` i Terminalen.
+3. Kör `npm i` för att installera alla programmets dependencies.
+4. Kör `npm start` för att starta en Dev Localhost Environment.
+5. Navigera till "http://localhost:3000/"
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-## Building your project
+### Kontakt:
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-  hhhnpm
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Deploy it using Heroku or Netlify!
-
-**Have fun building!** 🚀
+Vid frågor eller funderingar, tveka inte att höra av er till: ulvesten@icloud.com
+```
