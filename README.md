@@ -18,7 +18,7 @@ src
 └───App
 |     └───App.jsx                           #General app layout
 └───Card
-      └───Card.jsx                          #Showcase of how i dynamically changed the data of the different cards
+      └───Card.jsx                          #Showcase of dynamically show the data of the different cards
 
 ## Installera programmet och kör lokalt på er dator:
 
